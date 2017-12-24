@@ -30,6 +30,9 @@ header {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  bottom: 0px;
+    right: 0px;
+    top: 0px;
 }
 
 .logo {
@@ -87,4 +90,68 @@ span {
 
 .month {
   width: 1000px;
+  height: 700px;
+  padding-top: 60px;
+  margin: auto;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea {
+  padding: 10px;
+}
+
+.tea img {
+  width: 300px;
+  height: 200px;
+}
+
+#menu {
+  margin: 0;
+  padding-top: 10px;
+}
+
+/* Locations */
+
+.locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+}
+
+.flex-location {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+
+.place {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  margin: 15px 20px;
+}
+
+.locations h2 {
+  justify-content: center;
+  padding-top: 50px;
+  margin: auto;
+}
+
+/* Footer */
+
+.contact {
+  height: 200px;
+  width: 1200px;
+  margin: auto;
+}
+
+footer p {
+  text-align: left;
 }
